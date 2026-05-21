@@ -10,12 +10,33 @@
 <position style="font-size:1.10rem;">{{ site.position }}</position>
 <br>
 {% endif %}
-{% if site.affiliation %}
-<a href="https://www.polyu.edu.hk/fh/" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+
+{% if site.major %}
+<span>{{ site.major }}</span>
 <br>
 {% endif %}
+
+{% if site.minor %}
+<span>{{ site.minor }}</span>
+<br>
+{% endif %}
+
+{% if site.gpa %}
+<span>{{ site.gpa }}</span>
+<br>
+{% endif %}
+
+{% if site.institution %}
+<a href="https://www.polyu.edu.hk/" rel="noopener">
+  <autocolor>{{ site.institution }}</autocolor>
+</a>
+<br>
+{% endif %}
+
 {% if site.email %}
-<email>{{ site.email }}</email>
+<a href="mailto:{{ site.email }}">
+  <email>{{ site.email }}</email>
+</a>
 {% endif %}
 
 <div class="social-icons">
