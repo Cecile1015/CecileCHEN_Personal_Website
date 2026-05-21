@@ -7,34 +7,29 @@
 <h1>{{ site.title }}</h1>
 
 {% if site.position %}
-<position style="font-size:1.10rem;">{{ site.position }}</position>
-<br>
+<position class="sidebar-line sidebar-position">{{ site.position }}</position>
 {% endif %}
 
 {% if site.major %}
-<span>{{ site.major }}</span>
-<br>
+<span class="sidebar-line">{{ site.major }}</span>
 {% endif %}
 
 {% if site.minor %}
-<span>{{ site.minor }}</span>
-<br>
+<span class="sidebar-line">{{ site.minor }}</span>
 {% endif %}
 
 {% if site.gpa %}
-<span>{{ site.gpa }}</span>
-<br>
+<span class="sidebar-line">{{ site.gpa }}</span>
 {% endif %}
 
 {% if site.institution %}
-<a href="https://www.polyu.edu.hk/" rel="noopener">
+<a class="sidebar-line sidebar-school" href="https://www.polyu.edu.hk/" rel="noopener">
   <autocolor>{{ site.institution }}</autocolor>
 </a>
-<br>
 {% endif %}
 
 {% if site.email %}
-<a href="mailto:{{ site.email }}">
+<a class="sidebar-line sidebar-email" href="mailto:{{ site.email }}">
   <email>{{ site.email }}</email>
 </a>
 {% endif %}
