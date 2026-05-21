@@ -26,3 +26,27 @@
   font-size: 1rem;
   font-weight: 600;
 }
+@media print, screen and (min-width: 961px) {
+  header {
+    width: 300px;
+  }
+
+  section {
+    width: 620px;
+  }
+
+  .site-nav-title {
+    flex-basis: 300px;
+  }
+
+  .profile-copy {
+    width: 300px;
+    max-width: 300px;
+    overflow: visible;
+  }
+
+  .sidebar-line {
+    white-space: nowrap;
+    overflow: visible;
+  }
+}
