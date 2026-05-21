@@ -1,0 +1,65 @@
+# Basic Information 
+title: Cecile CHEN
+position: Undergraduate Researcher | she/her
+affiliation: BSc Language Sciences and Analytics @The Hong Kong Polytechnic University
+email: 24110361d (at) connect dot polyu dot hk
+
+# Search Engine Optimization (SEO)
+keywords: Cecile CHEN, Cécile Chen, CHEN Yifei, psycholinguistics, neurolinguistics, EEG, ERP, bilingual speech processing, tonal speech, Chinese orthography, computational linguistics
+
+description: Undergraduate researcher in language sciences and analytics, with interests in psycholinguistics, neurolinguistics, bilingual speech processing, child language intervention, and computational linguistics.
+#canonical: https://Cecile1015.github.io/
+
+# Links 
+# Replace these placeholder URLs with your own profiles when ready.
+google_scholar: https://scholar.google.com/
+#orcid: https://orcid.org/
+cv_link: /assets/files/cv/main.pdf
+github_link: https://github.com/Cecile1015
+#linkedin: https://www.linkedin.com/in/your-profile/
+#twitter: https://twitter.com/
+
+# Images (e.g., your profile picture and your website's favicon) 
+# To use your own photo, upload it to assets/img/profile.jpg and change avatar to ./assets/img/profile.jpg
+avatar: ./assets/img/cecile-chen-avatar.png
+favicon: ./assets/img/monogram_round.png
+favicon_dark: ./assets/img/monogram_round.png
+
+# Footnote
+enable_footnote: true
+footnote: "&copy; 2026 Cecile CHEN."
+
+# Auto Dark Mode
+auto_dark_mode: true
+
+# Font
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+#google_analytics: UA-111540567-4
+
+# This site is self-contained. Layouts, includes, Sass, and assets are stored in this repository.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .bundle/
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - vendor/
+  - html_source_file/
+  - "**/*.aux"
+  - "**/*.bbl"
+  - "**/*.blg"
+  - "**/*.fdb_latexmk"
+  - "**/*.fls"
+  - "**/*.log"
+  - "**/*.nav"
+  - "**/*.out"
+  - "**/*.snm"
+  - "**/*.synctex.gz"
+  - "**/*.toc"
+  - "**/*.xdv"
