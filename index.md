@@ -16,7 +16,7 @@ My current research experience spans EEG/ERP studies of tonal accent adaptation 
 ## Name & Pronunciation
 
 <div class="prose-block">
-I use <b>Cecile CHEN</b> as my professional English name. My French name is <b>Cécile</b>, and my Chinese name is <b>CHEN Yifei</b> / <b>陈一飞</b>. I include pronunciation information on this website because names are also linguistic data: they carry phonetic form, social identity, and cross-linguistic adaptation.
+I use <b>Cecile CHEN</b> as my professional English name. My French name is <b>Cécile</b>, and my Chinese name is <b>CHEN Yifei</b> / <b>陈怡霏</b>. I include pronunciation information on this website because names are also linguistic data: they carry phonetic form, social identity, and cross-linguistic adaptation.
 <br>
 <br>
 <b>Cécile</b>: /se.sil/ &nbsp; | &nbsp; <b>CHEN Yifei</b>: /ʈʂʰən i feɪ/ or Mandarin Pinyin <i>Chén Yīfēi</i>.
