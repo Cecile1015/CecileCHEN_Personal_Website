@@ -2,3 +2,27 @@
 ---
 
 @import "minimal-light";
+.profile-summary {
+  max-width: 460px;
+}
+
+.profile-copy {
+  max-width: 460px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.35;
+}
+
+.sidebar-line {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin: 0.18rem 0;
+}
+
+.sidebar-position {
+  font-size: 1rem;
+  font-weight: 600;
+}
