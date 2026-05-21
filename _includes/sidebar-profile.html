@@ -1,8 +1,3 @@
-<div class="profile-summary">
-{% if site.avatar %}
-<a class="image avatar"><img src="{{ site.avatar | replace_first: './', '/' | relative_url }}" alt="avatar" /></a>
-{% endif %}
-
 <div class="profile-copy">
 <h1>{{ site.title }}</h1>
 
@@ -10,10 +5,20 @@
 <position style="font-size:1.10rem;">{{ site.position }}</position>
 <br>
 {% endif %}
+
 {% if site.affiliation %}
-<a href="https://www.polyu.edu.hk/fh/" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+<div class="sidebar-affiliation">
+  {{ site.affiliation | newline_to_br }}
+</div>
+{% endif %}
+
+{% if site.institution %}
+<a href="https://www.polyu.edu.hk/fh/" rel="noopener">
+  <autocolor>{{ site.institution }}</autocolor>
+</a>
 <br>
 {% endif %}
+
 {% if site.email %}
 <email>{{ site.email }}</email>
 {% endif %}
